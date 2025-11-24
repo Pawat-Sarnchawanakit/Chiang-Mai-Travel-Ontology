@@ -79,28 +79,10 @@
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTouristSpotType"/>
+        <ObjectProperty IRI="#hasVisitConstriant"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isInDistrict"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isSuitableForBudget"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isSuitableForDietaryRestriction"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isSuitableForTime"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isSuitableForTouristCondition"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#requireAccessibilityFeature"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasCost"/>
@@ -391,34 +373,9 @@
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireAccessibilityFeature"/>
-        <NamedIndividual IRI="#Blind"/>
-        <NamedIndividual IRI="#Braille"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireAccessibilityFeature"/>
-        <NamedIndividual IRI="#BrokenLeg"/>
-        <NamedIndividual IRI="#WheelchairFriendly"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasTouristSpotType"/>
-        <NamedIndividual IRI="#Doi_Inthanon"/>
-        <NamedIndividual IRI="#Mountain"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
         <NamedIndividual IRI="#Mae_Chaem"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <NamedIndividual IRI="#Doi_Inthanon"/>
-        <NamedIndividual IRI="#AdultAge"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForBudget"/>
-        <NamedIndividual IRI="#Doi_Inthanon"/>
-        <NamedIndividual IRI="#FreeLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -426,44 +383,9 @@
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasTouristSpotType"/>
-        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
-        <NamedIndividual IRI="#Jok_Restaurant"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
-        <NamedIndividual IRI="#ChildAge"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForBudget"/>
-        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
-        <NamedIndividual IRI="#LowLevel"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForDietaryRestriction"/>
-        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
-        <NamedIndividual IRI="#Halal"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireAccessibilityFeature"/>
-        <NamedIndividual IRI="#Muslim"/>
-        <NamedIndividual IRI="#IslamicPrayerRoom"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireAccessibilityFeature"/>
-        <NamedIndividual IRI="#Paralysis"/>
-        <NamedIndividual IRI="#WheelchairFriendly"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireAccessibilityFeature"/>
-        <NamedIndividual IRI="#Smoker"/>
-        <NamedIndividual IRI="#SmokingRoom"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -471,24 +393,9 @@
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasTouristSpotType"/>
-        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
-        <NamedIndividual IRI="#Temple"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
-        <NamedIndividual IRI="#ElderAge"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForBudget"/>
-        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
-        <NamedIndividual IRI="#FreeLevel"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
@@ -513,31 +420,11 @@
         <Class IRI="#TouristSpot"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTouristSpotType"/>
+        <ObjectProperty IRI="#hasVisitConstriant"/>
         <Class IRI="#TouristSpot"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isInDistrict"/>
-        <Class IRI="#TouristSpot"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <Class IRI="#TouristSpot"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isSuitableForBudget"/>
-        <Class IRI="#TouristSpot"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isSuitableForDietaryRestriction"/>
-        <Class IRI="#TouristSpot"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isSuitableForTime"/>
-        <Class IRI="#TouristSpot"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isSuitableForTouristCondition"/>
         <Class IRI="#TouristSpot"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
@@ -545,20 +432,12 @@
         <Class IRI="#AccessibilityFeature"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasVisitConstriant"/>
+        <Class IRI="#VisitContraint"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#isInDistrict"/>
         <Class IRI="#District"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <Class IRI="#AgeGroup"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#isSuitableForBudget"/>
-        <Class IRI="#BudgetLevel"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#isSuitableForDietaryRestriction"/>
-        <Class IRI="#DietaryRestriction"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#hasCost"/>
