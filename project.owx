@@ -16,16 +16,13 @@
         <Class IRI="#AccessibilityFeature"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ActivitySpot"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#AgeGroup"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BudgetLevel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cultural"/>
+        <Class IRI="#CulturalSpot"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DietaryRestriction"/>
@@ -49,10 +46,16 @@
         <Class IRI="#NatureSpot"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Park"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ReligiousSite"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialSpot"/>
     </Declaration>
     <Declaration>
         <Class IRI="#StreetFood"/>
@@ -184,6 +187,9 @@
         <NamedIndividual IRI="#Paralysis"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Playground"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
     </Declaration>
     <Declaration>
@@ -214,10 +220,6 @@
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#ActivitySpot"/>
-        <Class IRI="#TouristSpot"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#AgeGroup"/>
         <Class IRI="#VisitConstraint"/>
     </SubClassOf>
@@ -226,7 +228,7 @@
         <Class IRI="#VisitConstraint"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cultural"/>
+        <Class IRI="#CulturalSpot"/>
         <Class IRI="#TouristSpot"/>
     </SubClassOf>
     <SubClassOf>
@@ -235,11 +237,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FoodSpot"/>
-        <Class IRI="#TouristSpot"/>
+        <Class IRI="#CulturalSpot"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Market"/>
-        <Class IRI="#ActivitySpot"/>
+        <Class IRI="#SocialSpot"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mountain"/>
@@ -247,19 +249,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Museum"/>
-        <Class IRI="#Cultural"/>
+        <Class IRI="#CulturalSpot"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NatureSpot"/>
         <Class IRI="#TouristSpot"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Park"/>
+        <Class IRI="#SocialSpot"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ReligiousSite"/>
-        <Class IRI="#Cultural"/>
+        <Class IRI="#CulturalSpot"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Restaurant"/>
         <Class IRI="#FoodSpot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialSpot"/>
+        <Class IRI="#TouristSpot"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StreetFood"/>
@@ -283,7 +293,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Zoo"/>
-        <Class IRI="#ActivitySpot"/>
+        <Class IRI="#SocialSpot"/>
     </SubClassOf>
     <ClassAssertion>
         <Class IRI="#AgeGroup"/>
@@ -398,6 +408,10 @@
         <NamedIndividual IRI="#Paralysis"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AccessibilityFeature"/>
+        <NamedIndividual IRI="#Playground"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Zoo"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
     </ClassAssertion>
@@ -447,6 +461,11 @@
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Playground"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -756,6 +775,38 @@
                 <ObjectProperty IRI="#hasVisitConstriant"/>
                 <Variable IRI="/x"/>
                 <Variable IRI="/z"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>Playground -&gt; Child</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#TouristSpot"/>
+                <Variable IRI="/x"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasAccessibilityFeature"/>
+                <Variable IRI="/x"/>
+                <NamedIndividual IRI="#Playground"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#hasVisitConstriant"/>
+                <Variable IRI="/x"/>
+                <NamedIndividual IRI="#ChildAge"/>
             </ObjectPropertyAtom>
         </Head>
     </DLSafeRule>
