@@ -49,16 +49,10 @@
         <Class IRI="#NatureSpot"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PhysicalAccessibility"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ReligiousSite"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Restaurant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SensoryAccessibility"/>
     </Declaration>
     <Declaration>
         <Class IRI="#StreetFood"/>
@@ -260,20 +254,12 @@
         <Class IRI="#TouristSpot"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PhysicalAccessibility"/>
-        <Class IRI="#AccessibilityFeature"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ReligiousSite"/>
         <Class IRI="#Cultural"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Restaurant"/>
         <Class IRI="#FoodSpot"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SensoryAccessibility"/>
-        <Class IRI="#AccessibilityFeature"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StreetFood"/>
@@ -320,7 +306,7 @@
         <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#PhysicalAccessibility"/>
+        <Class IRI="#AccessibilityFeature"/>
         <NamedIndividual IRI="#CarPark"/>
     </ClassAssertion>
     <ClassAssertion>
