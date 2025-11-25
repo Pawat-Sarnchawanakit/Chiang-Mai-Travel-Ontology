@@ -16,6 +16,9 @@
         <Class IRI="#AccessibilityFeature"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#AgeGroup"/>
     </Declaration>
     <Declaration>
@@ -106,6 +109,9 @@
         <NamedIndividual IRI="#AdultAge"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Bird_Seeing"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Blind"/>
     </Declaration>
     <Declaration>
@@ -118,6 +124,12 @@
         <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Bungee_Jump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Camping"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CarPark"/>
     </Declaration>
     <Declaration>
@@ -127,10 +139,25 @@
         <NamedIndividual IRI="#ChildAge"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Cooking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cycling"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Doi_Inthanon"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Eating"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ElderAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Explore_Nature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fishing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#FreeBudgetLevel"/>
@@ -145,6 +172,12 @@
         <NamedIndividual IRI="#HighBudgetLevel"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Hiking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horse_Riding"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#IslamicPrayerRoom"/>
     </Declaration>
     <Declaration>
@@ -152,6 +185,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kayaking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Learning"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#LowBudgetLevel"/>
@@ -167,6 +206,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MountainClimbing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
@@ -187,16 +229,34 @@
         <NamedIndividual IRI="#Paralysis"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Picnic"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Playground"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#River_Tubing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rock_Climbing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shopping"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sky_Diving"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Smoker"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SmokingRoom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swimming"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ToddlerAge"/>
@@ -215,6 +275,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WheelchairFriendly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wildlife_Warching"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
@@ -316,6 +379,14 @@
         <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Bungee_Jump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Camping"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#AccessibilityFeature"/>
         <NamedIndividual IRI="#CarPark"/>
     </ClassAssertion>
@@ -328,12 +399,32 @@
         <NamedIndividual IRI="#ChildAge"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Cooking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Cycling"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mountain"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#AgeGroup"/>
         <NamedIndividual IRI="#ElderAge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Explore_Nature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Fishing"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
@@ -352,6 +443,14 @@
         <NamedIndividual IRI="#HighBudgetLevel"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Hiking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Horse_Riding"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#AccessibilityFeature"/>
         <NamedIndividual IRI="#IslamicPrayerRoom"/>
     </ClassAssertion>
@@ -362,6 +461,14 @@
     <ClassAssertion>
         <Class IRI="#Restaurant"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Kayaking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Learning"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
@@ -382,6 +489,10 @@
     <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
         <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#MountainClimbing"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#District"/>
@@ -408,12 +519,32 @@
         <NamedIndividual IRI="#Paralysis"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Picnic"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#AccessibilityFeature"/>
         <NamedIndividual IRI="#Playground"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#River_Tubing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Rock_Climbing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Zoo"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Sky_Diving"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#TouristCondition"/>
@@ -422,6 +553,10 @@
     <ClassAssertion>
         <Class IRI="#AccessibilityFeature"/>
         <NamedIndividual IRI="#SmokingRoom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Swimming"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AgeGroup"/>
@@ -446,6 +581,10 @@
     <ClassAssertion>
         <Class IRI="#AccessibilityFeature"/>
         <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VisitConstraint"/>
+        <NamedIndividual IRI="#Wildlife_Warching"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
