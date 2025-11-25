@@ -363,6 +363,10 @@
         <NamedIndividual IRI="#AdultAge"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Bird_Seeing"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#TouristCondition"/>
         <NamedIndividual IRI="#Blind"/>
     </ClassAssertion>
@@ -379,11 +383,11 @@
         <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Bungee_Jump"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Camping"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -399,11 +403,11 @@
         <NamedIndividual IRI="#ChildAge"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Cooking"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Cycling"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -411,7 +415,7 @@
         <NamedIndividual IRI="#Doi_Inthanon"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Eating"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -419,11 +423,11 @@
         <NamedIndividual IRI="#ElderAge"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Explore_Nature"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Fishing"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -443,11 +447,11 @@
         <NamedIndividual IRI="#HighBudgetLevel"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Hiking"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Horse_Riding"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -463,11 +467,11 @@
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Kayaking"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Learning"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -491,7 +495,7 @@
         <NamedIndividual IRI="#MediumBudgetLevel"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#MountainClimbing"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -519,7 +523,7 @@
         <NamedIndividual IRI="#Paralysis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Picnic"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -527,15 +531,15 @@
         <NamedIndividual IRI="#Playground"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#River_Tubing"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Rock_Climbing"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Shopping"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -543,7 +547,7 @@
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Sky_Diving"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -555,7 +559,7 @@
         <NamedIndividual IRI="#SmokingRoom"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Swimming"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -583,7 +587,7 @@
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#VisitConstraint"/>
+        <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Wildlife_Warching"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
