@@ -136,7 +136,7 @@
         <NamedIndividual IRI="#ElderAge"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#FreeLevel"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gluten-Free"/>
@@ -145,7 +145,7 @@
         <NamedIndividual IRI="#Halal"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#HighLevel"/>
+        <NamedIndividual IRI="#HighBudgetLevel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#IslamicPrayerRoom"/>
@@ -157,7 +157,7 @@
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#LowLevel"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mae_Chaem"/>
@@ -169,7 +169,7 @@
         <NamedIndividual IRI="#Mae_Taeng_District"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MediumLevel"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
@@ -341,7 +341,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
-        <NamedIndividual IRI="#FreeLevel"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#DietaryRestriction"/>
@@ -353,7 +353,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
-        <NamedIndividual IRI="#HighLevel"/>
+        <NamedIndividual IRI="#HighBudgetLevel"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AccessibilityFeature"/>
@@ -369,7 +369,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
-        <NamedIndividual IRI="#LowLevel"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#District"/>
@@ -385,7 +385,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
-        <NamedIndividual IRI="#MediumLevel"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#District"/>
@@ -500,7 +500,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstriant"/>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
-        <NamedIndividual IRI="#MediumLevel"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstriant"/>
@@ -510,7 +510,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstriant"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
-        <NamedIndividual IRI="#FreeLevel"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
@@ -555,7 +555,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstriant"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
-        <NamedIndividual IRI="#LowLevel"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
@@ -630,7 +630,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstriant"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
-        <NamedIndividual IRI="#FreeLevel"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
