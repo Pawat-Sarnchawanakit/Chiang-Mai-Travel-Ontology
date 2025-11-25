@@ -100,9 +100,6 @@
         <ObjectProperty IRI="#requireVisitConstraint"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasCost"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasRating"/>
     </Declaration>
     <Declaration>
@@ -119,6 +116,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#BrokenLeg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CarPark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ChildAge"/>
@@ -145,6 +151,9 @@
         <NamedIndividual IRI="#IslamicPrayerRoom"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
     </Declaration>
     <Declaration>
@@ -154,10 +163,13 @@
         <NamedIndividual IRI="#Mae_Chaem"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#MediumLevel"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mosque"/>
+        <NamedIndividual IRI="#Mae_Taeng_District"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediumLevel"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
@@ -178,13 +190,13 @@
         <NamedIndividual IRI="#Paralysis"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Smoker"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SmokingRoom"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Temple"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ToddlerAge"/>
@@ -194,6 +206,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vegetarian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
@@ -301,6 +316,18 @@
         <NamedIndividual IRI="#BrokenLeg"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Waterfall"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhysicalAccessibility"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Museum"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#AgeGroup"/>
         <NamedIndividual IRI="#ChildAge"/>
     </ClassAssertion>
@@ -333,6 +360,10 @@
         <NamedIndividual IRI="#IslamicPrayerRoom"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Market"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Restaurant"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
     </ClassAssertion>
@@ -345,12 +376,16 @@
         <NamedIndividual IRI="#Mae_Chaem"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#BudgetLevel"/>
-        <NamedIndividual IRI="#MediumLevel"/>
+        <Class IRI="#District"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#ReligiousSite"/>
-        <NamedIndividual IRI="#Mosque"/>
+        <Class IRI="#District"/>
+        <NamedIndividual IRI="#Mae_Taeng_District"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BudgetLevel"/>
+        <NamedIndividual IRI="#MediumLevel"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#District"/>
@@ -377,16 +412,16 @@
         <NamedIndividual IRI="#Paralysis"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Zoo"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#TouristCondition"/>
         <NamedIndividual IRI="#Smoker"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AccessibilityFeature"/>
         <NamedIndividual IRI="#SmokingRoom"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#ReligiousSite"/>
-        <NamedIndividual IRI="#Temple"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AgeGroup"/>
@@ -399,6 +434,10 @@
     <ClassAssertion>
         <Class IRI="#DietaryRestriction"/>
         <NamedIndividual IRI="#Vegetarian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temple"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Temple"/>
@@ -419,6 +458,51 @@
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisitConstriant"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisitConstriant"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisitConstriant"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <NamedIndividual IRI="#MediumLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstriant"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
         <NamedIndividual IRI="#AdultAge"/>
@@ -432,6 +516,26 @@
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
         <NamedIndividual IRI="#Mae_Chaem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -474,9 +578,44 @@
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisitConstriant"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
         <NamedIndividual IRI="#Smoker"/>
         <NamedIndividual IRI="#SmokingRoom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -500,13 +639,38 @@
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
@@ -557,10 +721,6 @@
         <Class IRI="#VisitConstraint"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
-        <DataProperty IRI="#hasCost"/>
-        <Class IRI="#BudgetLevel"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#hasRating"/>
         <Class IRI="#TouristSpot"/>
     </DataPropertyDomain>
@@ -568,10 +728,6 @@
         <DataProperty IRI="#isPetFriendly"/>
         <Class IRI="#TouristSpot"/>
     </DataPropertyDomain>
-    <DataPropertyRange>
-        <DataProperty IRI="#hasCost"/>
-        <Datatype abbreviatedIRI="owl:real"/>
-    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasRating"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
