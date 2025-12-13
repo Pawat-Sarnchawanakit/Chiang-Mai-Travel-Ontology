@@ -3,6 +3,8 @@
 
 ## 1. Subclass Relationship Overview
 
+Example query showing every declared subclass relationship.
+
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -17,6 +19,8 @@ WHERE {
 ```
 
 ## 2. Tourist Spots Matching Accessibility Feature and Age Group
+
+Example query for Wheelchair Friendly accessibility and Child Age visitors.
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -35,6 +39,8 @@ WHERE {
 
 ## 3. Toddler-Friendly Spots with Dietary Restrictions
 
+Example query for Toddler Age travelers who need Halal-friendly options.
+
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -51,6 +57,8 @@ WHERE {
 ```
 
 ## 4. Accessible and Affordable Tourist Spots Per Age Group
+
+Example query for Child Age visitors needing Wheelchair Friendly spots that are low-cost or free.
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -71,6 +79,8 @@ WHERE {
 
 ## 5. Spots by Type, Accessibility Features, and Time Constraint
 
+Example query for Museums that are Wheelchair Friendly and doable within One Day.
+
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -88,22 +98,15 @@ WHERE {
 
 ## 6. Must-See Attractions Within a Time Constraint
 
-```sparql
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling-guide#>
+Example query for attractions that fit into a One Day stay, sorted by rating.
 
-SELECT DISTINCT ?spot ?rating
-WHERE {
-  ?spot rdf:type ?spotType.
-  ?spotType rdfs:subClassOf* f:TouristSpot.
-  ?spot f:hasRating ?rating.
-  ?spot f:hasVisitConstriant f:OneDay.
-}
-ORDER BY DESC(?rating)
+```sparql
+
 ```
 
 ## 7. Top Tourist Attractions by Rating
+
+Example query returning the five highest-rated tourist spots overall.
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -122,6 +125,8 @@ LIMIT 5
 
 ## 8. Districts Best Suited for a Tourist Spot Type
 
+Example query counting how many Cultural Spots exist per district.
+
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -139,6 +144,8 @@ ORDER BY DESC(?spotCount)
 ```
 
 ## 9. Pet-Friendly Tourist Spot Check
+
+Example query checking if Jing Jai Market Chiang Mai allows pets.
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
