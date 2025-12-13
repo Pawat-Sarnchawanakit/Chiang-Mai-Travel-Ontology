@@ -89,7 +89,18 @@ WHERE {
 ## 6. Must-See Attractions Within a Time Constraint
 
 ```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling-guide#>
 
+SELECT DISTINCT ?spot ?rating
+WHERE {
+  ?spot rdf:type ?spotType.
+  ?spotType rdfs:subClassOf* f:TouristSpot.
+  ?spot f:hasRating ?rating.
+  ?spot f:hasVisitConstriant f:OneDay.
+}
+ORDER BY DESC(?rating)
 ```
 
 ## 7. Top Tourist Attractions by Rating
