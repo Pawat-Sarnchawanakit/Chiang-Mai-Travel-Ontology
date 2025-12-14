@@ -354,6 +354,34 @@
         <Class IRI="#VisitConstraint"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TouristSpot"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isInDistrict"/>
+            <Class IRI="#District"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TouristSpot"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isInDistrict"/>
+            <Class IRI="#District"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TouristSpot"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasRating"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TouristSpot"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#requireMinimumDuration"/>
+            <Datatype abbreviatedIRI="xsd:decimal"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Waterfall"/>
         <Class IRI="#NatureSpot"/>
     </SubClassOf>
