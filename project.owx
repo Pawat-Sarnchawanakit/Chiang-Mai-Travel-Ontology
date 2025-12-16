@@ -1152,7 +1152,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
         <NamedIndividual IRI="#Anusarn_Market"/>
-        <NamedIndividual IRI="#AllYear"/>
+        <NamedIndividual IRI="#AllAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
@@ -2082,7 +2082,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
         <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
-        <NamedIndividual IRI="#AllYear"/>
+        <NamedIndividual IRI="#AllAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
@@ -2112,7 +2112,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
         <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
-        <NamedIndividual IRI="#AllYear"/>
+        <NamedIndividual IRI="#AllAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
@@ -2652,7 +2652,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
         <NamedIndividual IRI="#Sunday_Walking_Street"/>
-        <NamedIndividual IRI="#AllYear"/>
+        <NamedIndividual IRI="#AllAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
@@ -2787,7 +2787,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
         <NamedIndividual IRI="#Warorot_Street_Food"/>
-        <NamedIndividual IRI="#AllYear"/>
+        <NamedIndividual IRI="#AllAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
@@ -2970,6 +2970,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -2980,6 +2985,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Anusarn_Market"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -2988,6 +2998,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3000,6 +3015,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
@@ -3008,6 +3028,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3020,6 +3045,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
@@ -3028,6 +3058,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chiang_Mai_Rock_Climbing_Center"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_Rock_Climbing_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3040,6 +3075,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
@@ -3048,6 +3088,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3070,6 +3115,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -3078,6 +3128,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3090,6 +3145,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
@@ -3098,6 +3158,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3110,6 +3175,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Doi_Mon_Jam"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
@@ -3118,6 +3188,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Pui"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3130,6 +3205,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Doi_Suthep"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
@@ -3138,6 +3218,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3158,6 +3243,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Elephant_Nature_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3190,6 +3280,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
@@ -3198,6 +3293,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3210,6 +3310,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
@@ -3218,6 +3323,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3230,6 +3340,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Huen_Phen"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
@@ -3238,6 +3353,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3250,6 +3370,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
@@ -3258,6 +3383,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3270,6 +3400,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
@@ -3280,6 +3415,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -3288,6 +3428,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3310,6 +3455,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
@@ -3318,6 +3468,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3330,6 +3485,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
@@ -3338,6 +3498,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3350,6 +3515,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
@@ -3358,6 +3528,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3380,6 +3555,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -3388,6 +3568,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3400,6 +3585,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
@@ -3408,6 +3598,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Saturday_Night_Market"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3420,6 +3615,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -3430,6 +3630,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Sky_Adventures_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Sky_Adventures_Chiang_Mai"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
@@ -3438,6 +3643,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Sunday_Walking_Street"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3460,6 +3670,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -3480,6 +3695,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Wachirathan_Waterfall"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
@@ -3490,6 +3710,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Warorot_Market"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -3500,6 +3725,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Warorot_Street_Food"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -3508,6 +3738,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Chedi_Luang"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3520,6 +3755,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Wat_Pha_Lat"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
@@ -3528,6 +3768,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
@@ -3540,6 +3785,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Wat_Suan_Dok"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
@@ -3548,6 +3798,11 @@
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Umong"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
