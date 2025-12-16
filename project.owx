@@ -349,7 +349,7 @@
         <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mae_Taeng_District"/>
+        <NamedIndividual IRI="#Mae_Taeng"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Meditation"/>
@@ -899,7 +899,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#District"/>
-        <NamedIndividual IRI="#Mae_Taeng_District"/>
+        <NamedIndividual IRI="#Mae_Taeng"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -1229,7 +1229,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
-        <NamedIndividual IRI="#Mae_Taeng_District"/>
+        <NamedIndividual IRI="#Mae_Taeng"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
@@ -1839,7 +1839,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Elephant_Nature_Park"/>
-        <NamedIndividual IRI="#Mae_Taeng_District"/>
+        <NamedIndividual IRI="#Mae_Taeng"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
