@@ -112,6 +112,9 @@
         <ObjectProperty IRI="#requireVisitConstraint"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasCloseTime"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasMaximumAge"/>
     </Declaration>
     <Declaration>
@@ -124,7 +127,13 @@
         <DataProperty IRI="#hasMinimumCostInBaht"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#hasOpenTime"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasRating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isChildFriendly"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#isPetFriendly"/>
@@ -160,7 +169,7 @@
         <NamedIndividual IRI="#BrokenLeg"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bungee_Jump"/>
@@ -280,9 +289,6 @@
         <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
     </Declaration>
     <Declaration>
@@ -331,10 +337,10 @@
         <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mae_Rim"/>
+        <NamedIndividual IRI="#Mae_On"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
@@ -344,9 +350,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mae_Taeng_District"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Meditation"/>
@@ -367,10 +370,10 @@
         <NamedIndividual IRI="#NightMarketExploration"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Paralysis"/>
@@ -397,6 +400,9 @@
         <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#San_Kamphaeng"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#San_Sai"/>
     </Declaration>
     <Declaration>
@@ -407,6 +413,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sightseeing"/>
@@ -494,6 +503,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:time"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#AgeGroup"/>
@@ -651,7 +663,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Waterfall"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -807,10 +819,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Park"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Park"/>
         <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -875,11 +883,11 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#District"/>
-        <NamedIndividual IRI="#Mae_Rim"/>
+        <NamedIndividual IRI="#Mae_On"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Park"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
+        <Class IRI="#District"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Zoo"/>
@@ -892,10 +900,6 @@
     <ClassAssertion>
         <Class IRI="#District"/>
         <NamedIndividual IRI="#Mae_Taeng_District"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Waterfall"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -922,12 +926,12 @@
         <NamedIndividual IRI="#NightMarketExploration"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#StreetFood"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <Class IRI="#Park"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Park"/>
-        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#TouristCondition"/>
@@ -963,6 +967,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#District"/>
+        <NamedIndividual IRI="#San_Kamphaeng"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#District"/>
         <NamedIndividual IRI="#San_Sai"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -976,6 +984,10 @@
     <ClassAssertion>
         <Class IRI="#Zoo"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waterfall"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -1092,12 +1104,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
         <NamedIndividual IRI="#Cycling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#Photography"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
@@ -1171,52 +1193,52 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#CarPark"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#Playground"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#Swimming"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#RainySeason"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstraint"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#ChildAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#Mae_Taeng_District"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#AdultAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#FreeBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -1285,14 +1307,9 @@
         <NamedIndividual IRI="#Learning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
-        <NamedIndividual IRI="#WeekdayOnly"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
-        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
-        <NamedIndividual IRI="#ChildAge"/>
+        <NamedIndividual IRI="#Photography"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
@@ -1475,6 +1492,11 @@
         <NamedIndividual IRI="#Learning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
         <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
         <NamedIndividual IRI="#AllYear"/>
@@ -1487,7 +1509,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
         <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
-        <NamedIndividual IRI="#AllAge"/>
+        <NamedIndividual IRI="#ElderAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
@@ -1537,6 +1559,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -1548,6 +1575,11 @@
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
         <NamedIndividual IRI="#Hiking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
@@ -1583,6 +1615,11 @@
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
         <NamedIndividual IRI="#MountainClimbing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
@@ -1660,6 +1697,11 @@
         <NamedIndividual IRI="#Hiking"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
         <NamedIndividual IRI="#Doi_Pui"/>
         <NamedIndividual IRI="#WinterSeason"/>
@@ -1682,6 +1724,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -1693,6 +1740,11 @@
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Doi_Suthep"/>
         <NamedIndividual IRI="#Hiking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
@@ -1713,6 +1765,26 @@
         <ObjectProperty IRI="#requireBudgetLevel"/>
         <NamedIndividual IRI="#Doi_Suthep"/>
         <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
@@ -1790,6 +1862,11 @@
         <NamedIndividual IRI="#Learning"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
         <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
         <NamedIndividual IRI="#WeekdayOnly"/>
@@ -1802,12 +1879,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
         <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
-        <NamedIndividual IRI="#AllAge"/>
+        <NamedIndividual IRI="#ElderAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
         <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
         <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
@@ -1841,46 +1923,6 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <NamedIndividual IRI="#Toilet"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <NamedIndividual IRI="#Bird_Seeing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <NamedIndividual IRI="#Camping"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <NamedIndividual IRI="#Fishing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasTimeRestriction"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <NamedIndividual IRI="#WinterSeason"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isInDistrict"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <NamedIndividual IRI="#Mae_Chaem"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <NamedIndividual IRI="#AdultAge"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireBudgetLevel"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <NamedIndividual IRI="#LowBudgetLevel"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
         <NamedIndividual IRI="#CarPark"/>
     </ObjectPropertyAssertion>
@@ -1897,7 +1939,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
         <NamedIndividual IRI="#Picnic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
@@ -1933,6 +1985,11 @@
         <ObjectProperty IRI="#hasTimeRestriction"/>
         <NamedIndividual IRI="#Huen_Phen"/>
         <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <NamedIndividual IRI="#Vegetarian"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
@@ -2040,6 +2097,11 @@
         <NamedIndividual IRI="#Eating"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
         <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
         <NamedIndividual IRI="#AllYear"/>
@@ -2092,12 +2154,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
         <NamedIndividual IRI="#Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <NamedIndividual IRI="#Photography"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
@@ -2122,12 +2194,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
         <NamedIndividual IRI="#Playground"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
         <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#Photography"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
@@ -2187,7 +2269,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
-        <NamedIndividual IRI="#San_Sai"/>
+        <NamedIndividual IRI="#San_Kamphaeng"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isSuitableForAgeGroup"/>
@@ -2198,6 +2280,11 @@
         <ObjectProperty IRI="#requireBudgetLevel"/>
         <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
         <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <NamedIndividual IRI="#CarPark"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -2232,36 +2319,6 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireBudgetLevel"/>
         <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
-        <NamedIndividual IRI="#LowBudgetLevel"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasAccessibilityFeature"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
-        <NamedIndividual IRI="#Toilet"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
-        <NamedIndividual IRI="#Horse_Riding"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasTimeRestriction"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
-        <NamedIndividual IRI="#AllYear"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isInDistrict"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
-        <NamedIndividual IRI="#Mae_Rim"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
-        <NamedIndividual IRI="#TeenAge"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireBudgetLevel"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
         <NamedIndividual IRI="#LowBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -2336,41 +2393,6 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <NamedIndividual IRI="#Kayaking"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <NamedIndividual IRI="#River_Tubing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <NamedIndividual IRI="#Swimming"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasTimeRestriction"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <NamedIndividual IRI="#RainySeason"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isInDistrict"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <NamedIndividual IRI="#Mae_Taeng_District"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <NamedIndividual IRI="#AdultAge"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireBudgetLevel"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <NamedIndividual IRI="#LowBudgetLevel"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
         <NamedIndividual IRI="#Eating"/>
     </ObjectPropertyAssertion>
@@ -2386,33 +2408,8 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <NamedIndividual IRI="#Toilet"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasActivity"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <NamedIndividual IRI="#Eating"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasTimeRestriction"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <NamedIndividual IRI="#AllYear"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isInDistrict"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <NamedIndividual IRI="#AdultAge"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#requireBudgetLevel"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <NamedIndividual IRI="#MediumBudgetLevel"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#CarPark"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -2428,6 +2425,11 @@
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
         <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#Photography"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
@@ -2458,6 +2460,51 @@
         <ObjectProperty IRI="#requireBudgetLevel"/>
         <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
         <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#Horse_Riding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#Mae_On"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#TeenAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
@@ -2596,8 +2643,53 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <NamedIndividual IRI="#Kayaking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <NamedIndividual IRI="#River_Tubing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <NamedIndividual IRI="#Swimming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <NamedIndividual IRI="#RainySeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Sky_Adventures_Chiang_Mai"/>
         <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Sky_Adventures_Chiang_Mai"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
@@ -2678,6 +2770,11 @@
         <ObjectProperty IRI="#hasTimeRestriction"/>
         <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
         <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <NamedIndividual IRI="#Vegetarian"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
@@ -2775,6 +2872,11 @@
         <NamedIndividual IRI="#Eating"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
         <NamedIndividual IRI="#Warorot_Street_Food"/>
         <NamedIndividual IRI="#AllYear"/>
@@ -2797,6 +2899,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -2808,6 +2915,11 @@
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Wat_Chedi_Luang"/>
         <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#Photography"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
@@ -2832,12 +2944,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Wat_Pha_Lat"/>
         <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
@@ -2857,12 +2984,22 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
         <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <NamedIndividual IRI="#Meditation"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
@@ -2902,6 +3039,16 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
         <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -2922,12 +3069,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Wat_Umong"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Wat_Umong"/>
         <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasTimeRestriction"/>
@@ -2965,54 +3127,114 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#hasRating"/>
+        <DataProperty IRI="#hasCloseTime"/>
         <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">22:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#isPetFriendly"/>
+        <DataProperty IRI="#hasOpenTime"/>
         <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#requireMinimumDuration"/>
-        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">05:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
-        <NamedIndividual IRI="#Anusarn_Market"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#isPetFriendly"/>
-        <NamedIndividual IRI="#Anusarn_Market"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#requireMinimumDuration"/>
-        <NamedIndividual IRI="#Anusarn_Market"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#hasRating"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#requireMinimumDuration"/>
-        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">23:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">05:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">16:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Buatong_Waterfall_Chet_Si_Fountain_National_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3025,9 +3247,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">16:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3040,9 +3277,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">22:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">11:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3055,9 +3307,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_Rock_Climbing_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">18:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_Rock_Climbing_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chiang_Mai_Rock_Climbing_Center"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_Rock_Climbing_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3070,9 +3337,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">22:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3085,9 +3367,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3110,9 +3407,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3125,9 +3437,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">21:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3138,6 +3465,16 @@
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
@@ -3155,9 +3492,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3170,9 +3522,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">20:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">07:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Mon_Jam"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3185,9 +3552,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">16:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Pui"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3198,6 +3580,16 @@
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Doi_Pui"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">21:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">05:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
@@ -3205,6 +3597,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
         <NamedIndividual IRI="#Doi_Suthep"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -3215,9 +3612,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Doi_Suthep_Forest_Observation_Point"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3240,9 +3652,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Elephant_Nature_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3275,9 +3702,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50001</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">16:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3290,9 +3732,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3305,24 +3762,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#hasRating"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:30:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#isPetFriendly"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#requireMinimumDuration"/>
-        <NamedIndividual IRI="#Huai_Nam_Dang_National_Park"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">06:30:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3335,9 +3792,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">22:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Huen_Phen"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3355,6 +3827,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
         <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -3363,6 +3840,16 @@
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">23:59:59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">00:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
@@ -3370,6 +3857,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
@@ -3380,9 +3872,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">23:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">16:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3395,9 +3902,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">14:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3410,9 +3932,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">16:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3425,9 +3962,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">20:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">05:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3450,9 +4002,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">18:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">10:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3470,6 +4037,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
         <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
@@ -3480,24 +4052,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#hasRating"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">16:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#isPetFriendly"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#requireMinimumDuration"/>
-        <NamedIndividual IRI="#Mae_Rim_Horse_Riding_Farm"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">09:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3510,9 +4082,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">16:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3523,21 +4110,6 @@
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#hasRating"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#isPetFriendly"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#requireMinimumDuration"/>
-        <NamedIndividual IRI="#Mae_Taeng_River_Adventure"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasMaximumCostInBaht"/>
@@ -3551,23 +4123,13 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#isPetFriendly"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#requireMinimumDuration"/>
-        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3580,9 +4142,54 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">18:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#On_Horse_Farm_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">18:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3595,9 +4202,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">23:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">18:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Saturday_Night_Market"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3610,9 +4232,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">09:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3625,9 +4262,54 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">20:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPetFriendly"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Siam_River_Adventures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Sky_Adventures_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Sky_Adventures_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">07:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Sky_Adventures_Chiang_Mai"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Sky_Adventures_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3640,9 +4322,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">22:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Sunday_Walking_Street"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3665,9 +4362,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">01:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3690,9 +4402,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">06:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wachirathan_Waterfall"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3705,9 +4432,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">18:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">06:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Warorot_Market"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3722,7 +4464,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Warorot_Street_Food"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3733,11 +4480,26 @@
         <DataProperty IRI="#requireMinimumDuration"/>
         <NamedIndividual IRI="#Warorot_Street_Food"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">08:00:00</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Chedi_Luang"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3750,9 +4512,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">17:30:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">06:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Pha_Lat"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3765,9 +4542,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">21:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">05:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3780,9 +4572,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">18:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">06:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Suan_Dok"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3795,9 +4602,24 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#hasCloseTime"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">20:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasOpenTime"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#time">04:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Umong"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isChildFriendly"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isPetFriendly"/>
@@ -3884,6 +4706,14 @@
         <ObjectProperty IRI="#requireVisitConstraint"/>
         <Class IRI="#VisitConstraint"/>
     </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRating"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasCloseTime"/>
+        <Class IRI="#TouristSpot"/>
+    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasMaximumAge"/>
         <Class IRI="#AgeGroup"/>
@@ -3901,7 +4731,15 @@
         <Class IRI="#BudgetLevel"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#hasOpenTime"/>
+        <Class IRI="#TouristSpot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#hasRating"/>
+        <Class IRI="#TouristSpot"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isChildFriendly"/>
         <Class IRI="#TouristSpot"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -3913,6 +4751,10 @@
         <Class IRI="#TouristSpot"/>
     </DataPropertyDomain>
     <DataPropertyRange>
+        <DataProperty IRI="#hasCloseTime"/>
+        <Datatype abbreviatedIRI="xsd:time"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#hasMaximumAge"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
@@ -3929,8 +4771,16 @@
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#hasOpenTime"/>
+        <Datatype abbreviatedIRI="xsd:time"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#hasRating"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isChildFriendly"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#isPetFriendly"/>
