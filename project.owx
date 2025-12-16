@@ -88,16 +88,40 @@
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasVisitConstraint"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isInDistrict"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#requireVisitConstraint"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaximumAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaximumCostInBaht"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMinimumAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMinimumCostInBaht"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasRating"/>
@@ -110,6 +134,18 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#AdultAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AllAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AllYear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anusarn_Market"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bird_Seeing"/>
@@ -136,10 +172,31 @@
         <NamedIndividual IRI="#CarPark"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Chaing_Dao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiang_Dao"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ChildAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chom_Thong"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Cooking"/>
@@ -148,13 +205,37 @@
         <NamedIndividual IRI="#Cycling"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Doi_Inthanon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doi_Pui"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doi_Suthep"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Eating"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ElderAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elevator"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Explore_Nature"/>
@@ -172,13 +253,31 @@
         <NamedIndividual IRI="#Halal"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Handrail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hang_Dong"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#HighBudgetLevel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Hiking"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Horse_Riding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Huen_Phen"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#IslamicPrayerRoom"/>
@@ -190,7 +289,19 @@
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Kayaking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Learning"/>
@@ -199,13 +310,31 @@
         <NamedIndividual IRI="#LowBudgetLevel"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#LowSlopePath"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Mae_Chaem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mae_Rim"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Mae_Taeng_District"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meditation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#MediumBudgetLevel"/>
@@ -220,7 +349,19 @@
         <NamedIndividual IRI="#Muslim"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#NightMarketExploration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Paralysis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Photography"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Picnic"/>
@@ -229,16 +370,31 @@
         <NamedIndividual IRI="#Playground"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#RainySeason"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#River_Tubing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Rock_Climbing"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#San_Sai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Shopping"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sightseeing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Sky_Diving"/>
@@ -253,7 +409,22 @@
         <NamedIndividual IRI="#SpringSeason"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SummerSeason"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Swimming"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TactilePaving"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TeenAge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ToddlerAge"/>
@@ -265,10 +436,28 @@
         <NamedIndividual IRI="#Vegetarian"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Warorot_Market"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Wat_Chedi_Luang"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wat_Umong"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WeekdayOnly"/>
@@ -281,6 +470,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wildlife_Warching"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WinterSeason"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
@@ -355,6 +547,20 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TouristSpot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTimeRestriction"/>
+            <Class IRI="#TimeRestriction"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TouristSpot"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#requireBudgetLevel"/>
+            <Class IRI="#BudgetLevel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TouristSpot"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#isInDistrict"/>
             <Class IRI="#District"/>
@@ -369,15 +575,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TouristSpot"/>
-        <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#hasRating"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#requireMinimumDuration"/>
             <Datatype abbreviatedIRI="xsd:decimal"/>
-        </DataExactCardinality>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TouristSpot"/>
         <DataExactCardinality cardinality="1">
-            <DataProperty IRI="#requireMinimumDuration"/>
+            <DataProperty IRI="#hasRating"/>
             <Datatype abbreviatedIRI="xsd:decimal"/>
         </DataExactCardinality>
     </SubClassOf>
@@ -392,6 +598,22 @@
     <ClassAssertion>
         <Class IRI="#AgeGroup"/>
         <NamedIndividual IRI="#AdultAge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeGroup"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeRestriction"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Park"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Market"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -426,12 +648,36 @@
         <NamedIndividual IRI="#CarPark"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#StreetFood"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#District"/>
+        <NamedIndividual IRI="#Chiang_Dao"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Museum"/>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Zoo"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreetFood"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zoo"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#AgeGroup"/>
         <NamedIndividual IRI="#ChildAge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#District"/>
+        <NamedIndividual IRI="#Chom_Thong"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -442,8 +688,32 @@
         <NamedIndividual IRI="#Cycling"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Museum"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restaurant"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mountain"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mountain"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mountain"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mountain"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mountain"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -452,6 +722,14 @@
     <ClassAssertion>
         <Class IRI="#AgeGroup"/>
         <NamedIndividual IRI="#ElderAge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zoo"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityFeature"/>
+        <NamedIndividual IRI="#Elevator"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -474,8 +752,20 @@
         <NamedIndividual IRI="#Halal"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AccessibilityFeature"/>
+        <NamedIndividual IRI="#Handrail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#District"/>
+        <NamedIndividual IRI="#Hang_Dong"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
         <NamedIndividual IRI="#HighBudgetLevel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Museum"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -484,6 +774,18 @@
     <ClassAssertion>
         <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Horse_Riding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waterfall"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Park"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restaurant"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AccessibilityFeature"/>
@@ -498,8 +800,24 @@
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#StreetFood"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Kayaking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restaurant"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Museum"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Park"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -510,16 +828,40 @@
         <NamedIndividual IRI="#LowBudgetLevel"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#AccessibilityFeature"/>
+        <NamedIndividual IRI="#LowSlopePath"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Museum"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#District"/>
         <NamedIndividual IRI="#Mae_Chaem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waterfall"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#District"/>
         <NamedIndividual IRI="#Mae_Rim"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Zoo"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waterfall"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#District"/>
         <NamedIndividual IRI="#Mae_Taeng_District"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Meditation"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#BudgetLevel"/>
@@ -538,8 +880,24 @@
         <NamedIndividual IRI="#Muslim"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#NightMarketExploration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreetFood"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Park"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#TouristCondition"/>
         <NamedIndividual IRI="#Paralysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Photography"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -550,6 +908,10 @@
         <NamedIndividual IRI="#Playground"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TimeRestriction"/>
+        <NamedIndividual IRI="#RainySeason"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Activity"/>
         <NamedIndividual IRI="#River_Tubing"/>
     </ClassAssertion>
@@ -558,12 +920,28 @@
         <NamedIndividual IRI="#Rock_Climbing"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Park"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#District"/>
+        <NamedIndividual IRI="#San_Sai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Market"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Shopping"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Zoo"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Activity"/>
+        <NamedIndividual IRI="#Sightseeing"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Activity"/>
@@ -582,8 +960,28 @@
         <NamedIndividual IRI="#SpringSeason"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#TimeRestriction"/>
+        <NamedIndividual IRI="#SummerSeason"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Market"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Swimming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AccessibilityFeature"/>
+        <NamedIndividual IRI="#TactilePaving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeGroup"/>
+        <NamedIndividual IRI="#TeenAge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Restaurant"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#AgeGroup"/>
@@ -598,12 +996,36 @@
         <NamedIndividual IRI="#Vegetarian"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Waterfall"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Market"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#StreetFood"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Temple"/>
         <NamedIndividual IRI="#Wat_Chedi_Luang"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Temple"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temple"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temple"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Temple"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#TimeRestriction"/>
@@ -621,6 +1043,80 @@
         <Class IRI="#Activity"/>
         <NamedIndividual IRI="#Wildlife_Warching"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TimeRestriction"/>
+        <NamedIndividual IRI="#WinterSeason"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#Cycling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#Picnic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
         <NamedIndividual IRI="#Blind"/>
@@ -652,11 +1148,66 @@
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Swimming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#RainySeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstraint"/>
         <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
         <NamedIndividual IRI="#ChildAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#Mae_Taeng_District"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <NamedIndividual IRI="#WeekendOnly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
         <NamedIndividual IRI="#CarPark"/>
@@ -670,6 +1221,16 @@
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
         <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <NamedIndividual IRI="#Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <NamedIndividual IRI="#WeekdayOnly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstraint"/>
@@ -677,24 +1238,534 @@
         <NamedIndividual IRI="#ChildAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
         <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
         <NamedIndividual IRI="#MediumBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
-        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <NamedIndividual IRI="#Hang_Dong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <NamedIndividual IRI="#WeekendOnly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
         <NamedIndividual IRI="#AdultAge"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <NamedIndividual IRI="#Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
-        <NamedIndividual IRI="#FreeBudgetLevel"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <NamedIndividual IRI="#Explore_Nature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <NamedIndividual IRI="#Hiking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <NamedIndividual IRI="#WinterSeason"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
-        <NamedIndividual IRI="#Mae_Chaem"/>
+        <NamedIndividual IRI="#Chom_Thong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <NamedIndividual IRI="#Explore_Nature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <NamedIndividual IRI="#Hiking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <NamedIndividual IRI="#MountainClimbing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <NamedIndividual IRI="#WinterSeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <NamedIndividual IRI="#Chiang_Dao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <NamedIndividual IRI="#Explore_Nature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <NamedIndividual IRI="#Hiking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <NamedIndividual IRI="#WinterSeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <NamedIndividual IRI="#Explore_Nature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <NamedIndividual IRI="#Hiking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <NamedIndividual IRI="#WinterSeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#Explore_Nature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#Hiking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <NamedIndividual IRI="#Mae_Taeng_District"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <NamedIndividual IRI="#Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <NamedIndividual IRI="#WeekdayOnly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <NamedIndividual IRI="#Swimming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <NamedIndividual IRI="#RainySeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#Cycling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#Picnic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -710,6 +1781,21 @@
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
         <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#WeekendOnly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
@@ -717,14 +1803,29 @@
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
         <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
-        <NamedIndividual IRI="#ChildAge"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <NamedIndividual IRI="#AllYear"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasVisitConstraint"/>
@@ -732,14 +1833,289 @@
         <NamedIndividual IRI="#Halal"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
         <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
         <NamedIndividual IRI="#LowBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
-        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <NamedIndividual IRI="#Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <NamedIndividual IRI="#WeekdayOnly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#Playground"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <NamedIndividual IRI="#Learning"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <NamedIndividual IRI="#San_Sai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <NamedIndividual IRI="#Picnic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <NamedIndividual IRI="#Swimming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <NamedIndividual IRI="#RainySeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <NamedIndividual IRI="#Chom_Thong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <NamedIndividual IRI="#Picnic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <NamedIndividual IRI="#Swimming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <NamedIndividual IRI="#RainySeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <NamedIndividual IRI="#Mae_Rim"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+        <NamedIndividual IRI="#Eating"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
@@ -752,9 +2128,159 @@
         <NamedIndividual IRI="#Halal"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#Playground"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#Picnic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
         <NamedIndividual IRI="#Paralysis"/>
         <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#WheelchairFriendly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#Hang_Dong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <NamedIndividual IRI="#WeekendOnly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -764,12 +2290,27 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
-        <NamedIndividual IRI="#ChildAge"/>
+        <NamedIndividual IRI="#Photography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#AllYear"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
@@ -777,9 +2318,184 @@
         <NamedIndividual IRI="#Mae_Rim"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#ChildAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
         <NamedIndividual IRI="#Smoker"/>
         <NamedIndividual IRI="#SmokingRoom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <NamedIndividual IRI="#WeekendOnly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <NamedIndividual IRI="#Swimming"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <NamedIndividual IRI="#RainySeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <NamedIndividual IRI="#Chom_Thong"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <NamedIndividual IRI="#AdultAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <NamedIndividual IRI="#Shopping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <NamedIndividual IRI="#AllAge"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <NamedIndividual IRI="#Eating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -792,9 +2508,59 @@
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Wat_Chedi_Luang"/>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <NamedIndividual IRI="#WinterSeason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <NamedIndividual IRI="#Toilet"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
@@ -802,24 +2568,144 @@
         <NamedIndividual IRI="#WheelchairFriendly"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
-        <NamedIndividual IRI="#ElderAge"/>
+        <NamedIndividual IRI="#Photography"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasVisitConstraint"/>
+        <ObjectProperty IRI="#hasActivity"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
-        <NamedIndividual IRI="#FreeBudgetLevel"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <NamedIndividual IRI="#AllYear"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#isInDistrict"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
         <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <NamedIndividual IRI="#CarPark"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <NamedIndividual IRI="#Sightseeing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccessibilityFeature"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <NamedIndividual IRI="#Toilet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActivity"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <NamedIndividual IRI="#Meditation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <NamedIndividual IRI="#AllYear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isInDistrict"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <NamedIndividual IRI="#Mueang_Chiang_Mai"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumAge"/>
+        <NamedIndividual IRI="#AdultAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumAge"/>
+        <NamedIndividual IRI="#AdultAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">18</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumAge"/>
+        <NamedIndividual IRI="#AllAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">200</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumAge"/>
+        <NamedIndividual IRI="#AllAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Ang_Kaew_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Anusarn_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Buatong_Waterfall-Chet_Si_Fountain_National_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Chang_Phuak_Gate_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
@@ -827,14 +2713,209 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Chiang_Mai_National_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Chiang_Mai_Night_Safari"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Chiang_Mai_Sunday_Walking_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Chiang_Mai_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumAge"/>
+        <NamedIndividual IRI="#ChildAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumAge"/>
+        <NamedIndividual IRI="#ChildAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Dara_Phirom_Palace_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Dash_Tejas_Vegetarian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Doi_Inthanon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Doi_Inthanon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Doi_Luang_Chiang_Dao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Doi_Mon_Jam"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Doi_Pui"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumAge"/>
+        <NamedIndividual IRI="#ElderAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">120</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumAge"/>
+        <NamedIndividual IRI="#ElderAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Elephant_Nature_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumCostInBaht"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumCostInBaht"/>
+        <NamedIndividual IRI="#FreeBudgetLevel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumCostInBaht"/>
+        <NamedIndividual IRI="#HighBudgetLevel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumCostInBaht"/>
+        <NamedIndividual IRI="#HighBudgetLevel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Highland_People_Discovery_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Huai_Kaeo_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Huay_Tueng_Tao_Reservoir"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Huen_Phen"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Jing_Jai_Market_Chiang_Mai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
@@ -842,9 +2923,229 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Jok_Somphet_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Kad_Manee_Food_Center"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Khao_Soi_Khun_Yai"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Lanna_Folklife_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Lanna_King_Rama_IX_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumCostInBaht"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumCostInBaht"/>
+        <NamedIndividual IRI="#LowBudgetLevel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#MAIIAM_Contemporary_Art_Museum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Mae_Klang_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Mae_Sa_Elephant_Camp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Mae_Sa_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumCostInBaht"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">15000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumCostInBaht"/>
+        <NamedIndividual IRI="#MediumBudgetLevel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Nimmanhaemin_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Nong_Buak_Haad_Public_Park"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Royal_Park_Rajapruek"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Saturday_Night_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Siam_Insect_Zoo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Sunday_Walking_Street"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumAge"/>
+        <NamedIndividual IRI="#TeenAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumAge"/>
+        <NamedIndividual IRI="#TeenAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#The_Good_View_Bar_and_Restaurant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMaximumAge"/>
+        <NamedIndividual IRI="#ToddlerAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMinimumAge"/>
+        <NamedIndividual IRI="#ToddlerAge"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Wachirathan_Waterfall"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Warorot_Market"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Warorot_Street_Food"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
@@ -852,9 +3153,49 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Wat_Chedi_Luang"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Wat_Pha_Lat"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#hasRating"/>
         <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Wat_Phra_That_Doi_Suthep"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Wat_Suan_Dok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasRating"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#requireMinimumDuration"/>
+        <NamedIndividual IRI="#Wat_Umong"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1.5</Literal>
     </DataPropertyAssertion>
     <FunctionalObjectProperty>
         <ObjectProperty IRI="#isInDistrict"/>
@@ -864,6 +3205,14 @@
         <Class IRI="#TouristSpot"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActivity"/>
+        <Class IRI="#TouristSpot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <Class IRI="#TouristSpot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasVisitConstraint"/>
         <Class IRI="#TouristSpot"/>
     </ObjectPropertyDomain>
@@ -872,8 +3221,16 @@
         <Class IRI="#TouristSpot"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <Class IRI="#TouristSpot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
         <Class IRI="#TouristCondition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <Class IRI="#TouristSpot"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#requireVisitConstraint"/>
@@ -882,6 +3239,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasAccessibilityFeature"/>
         <Class IRI="#AccessibilityFeature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActivity"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTimeRestriction"/>
+        <Class IRI="#TimeRestriction"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasVisitConstraint"/>
@@ -892,13 +3257,37 @@
         <Class IRI="#District"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#isSuitableForAgeGroup"/>
+        <Class IRI="#AgeGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#requireAccessibilityFeature"/>
         <Class IRI="#AccessibilityFeature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requireBudgetLevel"/>
+        <Class IRI="#BudgetLevel"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#requireVisitConstraint"/>
         <Class IRI="#VisitConstraint"/>
     </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMaximumAge"/>
+        <Class IRI="#AgeGroup"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMaximumCostInBaht"/>
+        <Class IRI="#BudgetLevel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMinimumAge"/>
+        <Class IRI="#AgeGroup"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMinimumCostInBaht"/>
+        <Class IRI="#BudgetLevel"/>
+    </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasRating"/>
         <Class IRI="#TouristSpot"/>
@@ -911,6 +3300,22 @@
         <DataProperty IRI="#requireMinimumDuration"/>
         <Class IRI="#TouristSpot"/>
     </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMaximumAge"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMaximumCostInBaht"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMinimumAge"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMinimumCostInBaht"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasRating"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
