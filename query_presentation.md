@@ -1,10 +1,7 @@
 # SPARQL Query Collection
 
-Every query uses the namespace `PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling-guide#>` unless otherwise stated. Replace the `VALUES` bindings with the resources that match your scenario. Use `f:AllAge` as a fallback age group whenever a spot is marked as suitable for everyone.
-
-## 1. Tourist Condition + Age Group Accessibility
-
-Example: Broken leg traveler in the Elder age group (needs wheelchair-friendly access).
+Every query uses the namespace `PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling-guide#>` unless otherwise stated. Replace the `VALUES` bindings with the placeholder resources (e.g., `f:DISTRICT_INPUT`). Use `f:AllAge` as a fallback age group whenever a spot is marked as suitable for everyone.
+## I have <xxx TouristCondition and yyy age group>. Which tourist spots in Chiang Mai are accessible to me? (Medium)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -13,7 +10,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 
 SELECT DISTINCT ?spot ?neededFeature
 WHERE {
-  VALUES (?touristCondition ?ageGroup) { (f:BrokenLeg f:ElderAge) }
+  VALUES (?touristCondition ?ageGroup) { (f:TOURIST_CONDITION_INPUT f:AGE_GROUP_INPUT) }
   ?touristCondition rdf:type f:TouristCondition ;
                     f:requireAccessibilityFeature ?neededFeature .
   ?spot rdf:type ?spotType .
@@ -23,9 +20,7 @@ WHERE {
 }
 ```
 
-## 2. Toddler-Friendly With Dietary Restrictions
-
-Example: Traveling with a toddler (use `f:ChildAge`) who needs Halal dining options.
+## I am travelling with my <toddler>, and he has <xxx diet restrictions>. Which Chiang Mai attractions are friendly and safe? (Medium)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -34,7 +29,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 
 SELECT DISTINCT ?spot
 WHERE {
-  VALUES (?travellerAge ?dietNeed) { (f:ChildAge f:Halal) }
+  VALUES (?travellerAge ?dietNeed) { (f:AGE_GROUP_INPUT f:DIET_RESTRICTION_INPUT) }
   ?spot rdf:type ?spotType .
   ?spotType rdfs:subClassOf* f:TouristSpot .
   ?spot f:hasVisitConstraint ?dietNeed ;
@@ -43,9 +38,7 @@ WHERE {
 }
 ```
 
-## 3. Accessible & Affordable Spots for an Age Group
-
-Example: Child-friendly, wheelchair-accessible spots that are low-cost or free.
+## For the <xxx age group>, what are the <TouristSpot> that are both accessible and affordable (low-cost or free)? (Medium)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -54,7 +47,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 
 SELECT DISTINCT ?spot ?budgetLevel
 WHERE {
-  VALUES (?ageGroup ?neededFeature) { (f:ChildAge f:WheelchairFriendly) }
+  VALUES (?ageGroup ?neededFeature) { (f:AGE_GROUP_INPUT f:ACCESSIBILITY_FEATURE_INPUT) }
   ?spot rdf:type ?spotType .
   ?spotType rdfs:subClassOf* f:TouristSpot .
   ?spot f:isSuitableForAgeGroup ?ageGroup ;
@@ -64,9 +57,7 @@ WHERE {
 }
 ```
 
-## 4. Spot Type + Accessibility + Time Window + Duration
-
-Example: Museums that are wheelchair-friendly, open on weekdays, and doable within two hours.
+## If I want to go to <TouristSpotType> that supports <AccessibilityFeatures> and I can enjoy it in <TimeDuration>, where should I go? (Hard)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -76,7 +67,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 SELECT DISTINCT ?spot ?durationHours
 WHERE {
   VALUES (?desiredType ?featureNeeded ?timeRestriction ?maxDurationHours) {
-    (f:Museum f:WheelchairFriendly f:WeekdayOnly 2.0)
+    (f:TOURIST_SPOT_TYPE_INPUT f:ACCESSIBILITY_FEATURE_INPUT f:TIME_RESTRICTION_INPUT 2.0)
   }
   ?spot rdf:type ?actualType .
   ?actualType rdfs:subClassOf* ?desiredType .
@@ -87,9 +78,7 @@ WHERE {
 }
 ```
 
-## 5. Must-See Spots For a Time Constraint (Rating >= 4)
-
-Example: Weekend-only attractions with rating ? 4.
+## I can only visit in <TimeConstraints> in Chiang Mai. Which must-see (4+ rating) attractions can I visit efficiently? (Easy)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -98,7 +87,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 
 SELECT DISTINCT ?spot ?rating
 WHERE {
-  VALUES ?timeRestriction { f:WeekendOnly }
+  VALUES ?timeRestriction { f:TIME_RESTRICTION_INPUT }
   ?spot rdf:type ?spotType .
   ?spotType rdfs:subClassOf* f:TouristSpot .
   ?spot f:hasTimeRestriction ?timeRestriction ;
@@ -108,7 +97,7 @@ WHERE {
 ORDER BY DESC(?rating)
 ```
 
-## 6. Top Five Tourist Attractions By Rating
+## What are the top 5 tourist attractions <TouristSpot> in Chiang Mai? (Easy)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -125,9 +114,7 @@ ORDER BY DESC(?rating)
 LIMIT 5
 ```
 
-## 7. District With the Most Spots of a Type
-
-Example: District counts for cultural spots.
+## Which <District> in Chiang Mai is best for <TouristSpotType>? (Easy)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -136,7 +123,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 
 SELECT ?district (COUNT(DISTINCT ?spot) AS ?spotCount)
 WHERE {
-  VALUES ?requestedType { f:CulturalSpot }
+  VALUES ?requestedType { f:TOURIST_SPOT_TYPE_INPUT }
   ?spot rdf:type ?actualType .
   ?actualType rdfs:subClassOf* ?requestedType .
   ?spot f:isInDistrict ?district .
@@ -145,9 +132,7 @@ GROUP BY ?district
 ORDER BY DESC(?spotCount)
 ```
 
-## 8. Pet-Friendly Check For a Specific Spot
-
-Example: Royal Park Rajapruek.
+## Can I bring a pet to <TouristSpot>? (Easy)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -156,14 +141,12 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 
 SELECT ?spot ?petAllowed
 WHERE {
-  VALUES ?spot { f:Royal_Park_Rajapruek }
+  VALUES ?spot { f:TOURIST_SPOT_INPUT }
   OPTIONAL { ?spot f:isPetFriendly ?petAllowed }
 }
 ```
 
-## 9. Muslim Child, Gluten Allergy, Cheap, In a District
-
-Example: Look within Mueang Chiang Mai for child-friendly, Halal + gluten-free, low-cost spots.
+## I'm a muslim child, and I am allergic to gluten, which <TouristSpot> in <District> that is cheap that I should visit. (Medium)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -173,7 +156,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 SELECT DISTINCT ?spot
 WHERE {
   VALUES (?targetDistrict ?ageGroup ?dietNeedA ?dietNeedB) {
-    (f:Mueang_Chiang_Mai f:ChildAge f:Halal f:Gluten-Free)
+    (f:DISTRICT_INPUT f:AGE_GROUP_INPUT f:VISIT_CONSTRAINT_INPUT_A f:VISIT_CONSTRAINT_INPUT_B)
   }
   ?spot rdf:type ?spotType .
   ?spotType rdfs:subClassOf* f:TouristSpot .
@@ -187,9 +170,7 @@ WHERE {
 }
 ```
 
-## 10. Activity + Cheap Budget For a Family in a District
-
-Example: Sightseeing with the family in Hang Dong on a low budget.
+## I want to <Activity> with a really cheap budget option with my family in <District>. What would be the best tourist spot? (Medium)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -198,7 +179,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 
 SELECT DISTINCT ?spot ?budgetLevel
 WHERE {
-  VALUES (?desiredActivity ?district) { (f:Sightseeing f:Hang_Dong) }
+  VALUES (?desiredActivity ?district) { (f:ACTIVITY_INPUT f:DISTRICT_INPUT) }
   ?spot rdf:type ?spotType .
   ?spotType rdfs:subClassOf* f:TouristSpot .
   ?spot f:hasActivity ?desiredActivity ;
@@ -209,9 +190,7 @@ WHERE {
 }
 ```
 
-## 11. Dual Visit Constraints + Activity + Budget in a District
-
-Example: Vegetarian + gluten-free dining with eating activity under a medium budget in Mueang Chiang Mai.
+## Which tourist spots in <District> can host <A VisitContraint> and <B VisitContraint> simultaneously, offer <Activity>, and keep the budget at <budgetLevel>? (Very Hard)
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -221,7 +200,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 SELECT DISTINCT ?spot
 WHERE {
   VALUES (?district ?visitConstraintA ?visitConstraintB ?activityNeeded ?budgetLevel) {
-    (f:Mueang_Chiang_Mai f:Vegetarian f:Gluten-Free f:Eating f:MediumBudgetLevel)
+    (f:DISTRICT_INPUT f:VISIT_CONSTRAINT_INPUT_A f:VISIT_CONSTRAINT_INPUT_B f:ACTIVITY_INPUT f:BUDGET_LEVEL_INPUT)
   }
   ?spot rdf:type ?spotType .
   ?spotType rdfs:subClassOf* f:TouristSpot .
