@@ -508,6 +508,16 @@
     <Declaration>
         <Datatype abbreviatedIRI="xsd:time"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#FoodSpot"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CulturalSpot"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#hasActivity"/>
+                <NamedIndividual IRI="#Eating"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#AgeGroup"/>
         <Class IRI="#VisitConstraint"/>
