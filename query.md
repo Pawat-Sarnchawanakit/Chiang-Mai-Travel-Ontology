@@ -66,7 +66,7 @@ WHERE {
 
 ## 4. Spot Type + Accessibility + Time Window + Duration
 
-Example: Museums that are wheelchair-friendly, open on weekdays, and doable within two hours.
+Example: Museums that are wheelchair-friendly, open year-round, and doable within two hours.
 
 ```sparql
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -76,7 +76,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 SELECT DISTINCT ?spot ?durationHours
 WHERE {
   VALUES (?desiredType ?featureNeeded ?timeRestriction ?maxDurationHours) {
-    (f:Museum f:WheelchairFriendly f:WeekdayOnly 2.0)
+    (f:Museum f:WheelchairFriendly f:AllYear "2.0"^^xsd:decimal)
   }
   ?spot rdf:type ?actualType .
   ?actualType rdfs:subClassOf* ?desiredType .

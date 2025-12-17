@@ -67,7 +67,7 @@ PREFIX f: <http://www.semanticweb.org/h99/ontologies/2025/8/chiang-mai-traveling
 SELECT DISTINCT ?spot ?durationHours
 WHERE {
   VALUES (?desiredType ?featureNeeded ?timeRestriction ?maxDurationHours) {
-    (f:TOURIST_SPOT_TYPE_INPUT f:ACCESSIBILITY_FEATURE_INPUT f:TIME_RESTRICTION_INPUT 2.0)
+    (f:Museum f:WheelchairFriendly f:AllYear "2.0"^^xsd:decimal)
   }
   ?spot rdf:type ?actualType .
   ?actualType rdfs:subClassOf* ?desiredType .
